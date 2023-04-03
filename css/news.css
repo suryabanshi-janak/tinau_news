@@ -1,0 +1,278 @@
+:root {
+  --primaryColor: #293991;
+  --secondaryColor: #ee1c27;
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vesper Libre', serif !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+body a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+#navbar {
+  background-color: var(--primaryColor);
+  padding: 0;
+}
+
+.nav_logo {
+  height: 100px !important;
+  padding: 1rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  border-color: var(--primaryColor);
+}
+
+.news-title {
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  height: 35px;
+}
+.news-title h3 {
+  font-size: 1.15rem;
+}
+.news-title div {
+  width: 20px;
+  height: 100%;
+  background: var(--secondaryColor);
+}
+
+@media (min-width: 768px) {
+  .news-title {
+    height: 40px;
+  }
+  .news-title h3 {
+    font-size: 1.35rem;
+  }
+}
+@media (min-width: 992px) {
+  .news-title {
+    height: 50px;
+  }
+  .news-title h3 {
+    font-size: 1.5rem;
+  }
+  .news-title div {
+    width: 40px;
+  }
+  #nav_item {
+    border-left: 0.5px solid gray;
+  }
+  #nav_item:hover {
+    background-color: red;
+  }
+  #nav_item:last-child {
+    border-right: 0.5px solid gray;
+  }
+
+  .logo_cont {
+    margin: 1rem 0 1rem 8rem;
+  }
+  .nav_logo {
+    width: 400px;
+  }
+}
+
+/* MARQUEE */
+.marquee-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.marquee-title {
+  background: var(--primaryColor);
+  color: var(--white);
+  padding: 6px 0.75rem;
+}
+.marquee-container a {
+  font-size: 0.85rem;
+}
+.marquee-item:hover {
+  color: var(--primaryColor);
+}
+@media (min-width: 992px) {
+  .marquee-title {
+    padding: 8px 1rem;
+  }
+  .marquee-container a {
+    font-size: 1rem;
+  }
+}
+
+/* heading */
+.news-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.news-publication img {
+  width: 35px;
+  aspect-ratio: 4/3;
+}
+.news-publication p {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .news-heading {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .news-publication img {
+    width: 60px;
+    aspect-ratio: 4/3;
+  }
+  .news-publication p {
+    font-size: 1.2rem;
+  }
+}
+
+/* khabar */
+.khabar img {
+  width: 100%;
+  aspect-ratio: 9/5;
+}
+.khabar p {
+  font-size: 1rem;
+  line-height: 25px;
+  text-align: justify;
+  margin-top: 0.75rem !important;
+}
+@media (min-width: 992px) {
+  .khabar img {
+    aspect-ratio: 8/5;
+  }
+  .khabar p {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+}
+
+/* related */
+.related .news-container img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 8/3;
+}
+.related .news-container,
+.popular-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.related .news-container h5 {
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .related .news-container img {
+    aspect-ratio: 7/3;
+  }
+  .related .news-container,
+  .popular-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .popular-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .related .news-container img {
+    aspect-ratio: 5/3;
+  }
+  .related .news-container h5 {
+    font-size: 1.2rem;
+  }
+  .related .news-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* sidemenu */
+.taja-khabar img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+.taja-khabar h5 {
+  font-size: 1rem;
+}
+
+.popular img {
+  width: 100%;
+  aspect-ratio: 8/3;
+  object-fit: cover;
+}
+.popular h5 {
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .popular img {
+    aspect-ratio: 7/3;
+  }
+}
+@media (min-width: 768px) {
+  .popular h5 {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 992px) {
+  .popular img {
+    aspect-ratio: 2.5;
+  }
+  .popular h5 {
+    font-size: 1.35rem;
+  }
+}
+
+/* footer */
+.footer {
+  background-color: var(--primaryColor);
+  padding: 2rem 0 1rem;
+  color: #fff !important;
+}
+.copyright {
+  background-color: var(--secondaryColor);
+  padding: 12px;
+  color: #fff !important;
+}
+.copyright p {
+  font-size: 0.9rem;
+}
+@media (min-width: 992px) {
+  .footer p {
+    font-size: 1.1rem;
+  }
+  .copyright a {
+    font-size: 1.25rem;
+  }
+  .copyright p {
+    font-size: 1rem;
+  }
+}

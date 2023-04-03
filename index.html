@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Portal</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo_cont">
+        <img
+          src="https://tinaunews.com/wp-content/uploads/2022/10/logo-tinaunews.png"
+          class="img-fluid nav_logo"
+          alt=""
+        />
+      </div>
+
+      <nav class="navbar navbar-expand-xl" id="navbar">
+        <div class="container-fluid">
+          <div></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="border: transparent"
+          >
+            <!-- <span class="navbar-toggler-icon"> -->
+            <i
+              class="fa fa-navicon"
+              style="color: #fff; font-size: 20px; margin-top: 3px"
+            ></i>
+            <!-- </span> -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >होमपेज</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >समाचार</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >राजनीति</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >समाज/स्थानीय</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >खेल</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >विचार</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >मनोरंजन</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >अन्तर्वाता</a
+                >
+              </li>
+              <li class="nav-item py-1 px-3" id="nav_item">
+                <a
+                  class="nav-link active fs-5 fw-normal text-light"
+                  aria-current="page"
+                  href="#"
+                  >फोटोफिचर</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-4 px-4 px-md-0">
+      <div class="marquee-container">
+        <p class="marquee-title">समाचार</p>
+        <marquee
+          behavior="fade"
+          scrollamount="4"
+          direction="left"
+          onmouseover="this.stop();"
+          onmouseout="this.start();"
+          class="border-top border-bottom py-1"
+        >
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            बुटवल बहुमुखी क्याम्पसमा १ हजार ३ सय मत खस्यो
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            भैरहवा क्याम्पसको निर्वाचन चैत ८ गते
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            तस्वीरमा हेर्नुहोस-बुटवल बहुमुखी क्याम्पसमा १४ बर्ष पछि भएको स्ववियू
+            निर्वाचन
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            रुपन्देहीको रोहिणीमा निःशुल्क स्वास्थ्य शिविर, ४७६ जना लाभान्वित
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            क्रिकेट खेलाडी कुशल मल्ललाई न्यू होराइजन अंग्रेजी आवासीय मावि द्वारा
+            सम्मान (तस्वीरहरु)
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            सगरमाथा आवासीयलाई आईएसओ प्रमाण
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            नेवा पुच सेवा समिति १४ औं वर्षमा प्रवेश, पत्रकार दिनेश श्रेष्ठ
+            सम्मानित
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i> ११
+            तस्वीरमा हेर्नुहोस – अस्तव्यस्त र धुलाम्मे बुटवल
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            अक्सफोर्डमा विदाई तथा शुभकामना
+          </a>
+          <a href="#" rel="bookmark" class="marquee-item">
+            <i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>
+            रूपन्देही सुपरलिगको उपाधि वेष्टर्न क्रिकेट क्लबलाई
+          </a>
+        </marquee>
+      </div>
+
+      <!-- HEADLINES -->
+      <section class="headlines my-5">
+        <a href="#" class="text-center">
+          <article class="mb-5">
+            <p class="headline-title">
+              तस्वीरमा हेर्नुहोस-बुटवल बहुमुखी क्याम्पसमा १४ बर्ष पछि भएको
+              स्ववियू निर्वाचन
+            </p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-3 mb-4"
+            >
+              <img
+                src="https://secure.gravatar.com/avatar/d44b310dba11222bc5c671639c80940d?s=120&d=mm&r=g"
+                alt=""
+                class="author-img"
+              />
+              <p class="mb-0 mt-2 author">तिनाउ न्युज</p>
+            </div>
+            <img
+              src="https://tinaunews.com/wp-content/uploads/2023/03/butwal-campus-1024x461-1.jpg"
+              alt=""
+              class="headline-img"
+            />
+          </article>
+        </a>
+
+        <a href="#" class="text-center">
+          <article class="mb-5">
+            <p class="headline-title">
+              ११ तस्वीरमा हेर्नुहोस – अस्तव्यस्त र धुलाम्मे बुटवल
+            </p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-3 mb-3"
+            >
+              <img
+                src="https://secure.gravatar.com/avatar/d44b310dba11222bc5c671639c80940d?s=120&d=mm&r=g"
+                alt=""
+                class="author-img"
+              />
+              <p class="mb-0 mt-1 author">तिनाउ न्युज</p>
+            </div>
+            <img
+              src="https://tinaunews.com/wp-content/uploads/2023/03/3-star-win.jpg"
+              alt=""
+              class="headline-img"
+            />
+          </article>
+        </a>
+
+        <a href="#" class="text-center">
+          <article class="mb-5">
+            <p class="headline-title">
+              ११ तस्वीरमा हेर्नुहोस – अस्तव्यस्त र धुलाम्मे बुटवल
+            </p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-3 mb-3"
+            >
+              <img
+                src="https://secure.gravatar.com/avatar/d44b310dba11222bc5c671639c80940d?s=120&d=mm&r=g"
+                alt=""
+                class="author-img"
+              />
+              <p class="mb-0 mt-1 author">तिनाउ न्युज</p>
+            </div>
+            <img
+              src="https://tinaunews.com/wp-content/uploads/2023/03/dhulo-butwal.jpg"
+              alt=""
+              class="headline-img"
+            />
+          </article>
+        </a>
+      </section>
+
+      <!-- NEWS -->
+      <section class="mb-5">
+        <div class="news-title">
+          <div></div>
+          <a href="#">
+            <h3 class="text-white mt-1">समाचार</h3>
+          </a>
+        </div>
+        <div class="samachar">
+          <div class="samachar-left">
+            <div class="row gap-4 gap-md-0 mb-4">
+              <div class="col-12 col-md-6">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/336168078_1657396824694759_9115235593017528154_n-670x420.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      तिलोत्तमा गोल्डकपः ७ मिनेटमै फ्रेन्ड्स क्लवले लियो अग्रता
+                    </h4>
+                    <p class="samachar-news">
+                      बुटवल । बुटवलको एन्फा टेक्निकल सेन्टरमा २२ औं तिलोत्तमा
+                      गोल्डकप अन्तर्गत अहिले दोस्रो सेमिफाईनल...
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="col-12 col-md-6">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/tilottima-nagarpalika-670x420.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      याद राख्नुस ! तिलोत्तमा नगरभित्र अनुमतिविना अब कुकुर पाल्न
+                      नपाइने
+                    </h4>
+                    <p class="samachar-news">
+                      बुटवल । रुपन्देहीको तिलोत्तमा नगरभित्र कुकुर पालनका लागि
+                      अब...
+                    </p>
+                  </article>
+                </a>
+              </div>
+            </div>
+            <div class="row gap-4 gap-md-0 mb-4 mb-md-0">
+              <div class="col-12 col-md-6">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/jagaa-napjach-670x420.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      बुटवलमा लालपुर्जा विहीन जग्गाको सर्भे सुरु
+                    </h4>
+                    <p class="samachar-news">
+                      बुटवल उपमहानगरपालिकाले नापजाँच हुन बाँकी रहेका
+                      लालपुर्जाविहीन जग्गाहरूको सर्भे सुरु गरेको छ ।
+                      राष्ट्रिय...
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="col-12 col-md-6">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/PP1-670x420.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      पश्चिमाञ्चल पेट्रोलियम डिलर्स एशोसिएसनको वार्षिक
+                      कार्ययोजना
+                    </h4>
+                    <p class="samachar-news">
+                      पाल्पा । पश्चिमाञ्चल पेट्रोलियम डिलर्स एशोसिएसन बुटवल
+                      रुपन्देहीले संघको...
+                    </p>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="samachar-right">
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/x1679548352-2iLR9.jpg.pagespeed.ic_.5IsJhXMj5z.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  पक्लिहवा कृषि क्याम्पस स्ववियू सभापतिमा नेविसंघका प्रविन
+                  वस्याल विजयी
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/336199848_941254463669175_6146742421250649128_n.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  भैरहवामा मनाइयो विश्व दृष्टि विशेषज्ञ दिवस (तस्वीरहरु)
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/pad-aanju.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  बैंकको जागिर छाडेर प्याड बनाउन थालेकी अन्जु
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/220DAF90-FDA9-4E4B-B70E-DF5D93758635.webp"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  झारफुकको बहानामा कुटपिटपछि मृत्यु प्रकरणमा मानव अधिकार तथा
+                  शान्ति समाजको चासो
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/begamabeli-ful-tilottima-7-e1679487407583.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  तिलोत्तमा नगरभित्र गुट्खाजन्य पदार्थ विक्रि गरे ५० हजारसम्म
+                  जरिवाना
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/pauwa-pokhara-2.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  होटल पौवाको आतिथ्य सेवा पर्यटकीय शहर पोखराबाट सुरु
+                </h5>
+              </article>
+            </a>
+            <a href="#">
+              <article class="d-flex gap-3 pb-2 mb-2 border-bottom">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/03/goldcup.jpg"
+                  alt=""
+                />
+                <h5 class="lh-2">
+                  तिलोत्तमा गोल्डकप अपडेटः नेपाल पुलिसले १ गोल फर्कायो
+                </h5>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- POLITICS -->
+      <section class="raajniti mb-5">
+        <div class="news-title">
+          <div></div>
+          <h3 class="text-white mt-1">राजनीति</h3>
+        </div>
+
+        <div class="d-grid gap-4">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2022/12/lila-jokha.jpg"
+                    alt=""
+                    class="primary-img"
+                  />
+                  <h4 class="mt-3 mb-2">
+                    एमालेलाई दिएको समर्थन फिर्ता लिने भन्दै बसेको माओवादी बैठकमा
+                    आन्तरिक विवाद मुख्य एजेण्डा
+                  </h4>
+                  <p class="samachar-news">
+                    लुम्बिनी प्रदेशमा एमालेका लिला गिरी नेतृत्वको सरकारलाई दिएको
+                    समर्थन फिर्ता लिने भन्दै बसेको माओवादी संसदिय दलको बैठक...
+                  </p>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/ee3a0229b3843b1f468cd9d58b76a554.0-1536x1152-1.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    भैरहवा बहुमुखी क्याम्पसमा अनेरास्ववियुको प्यानल विजयी
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/02/mukhaya-mantri-dang.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    लुम्बिनी प्रदेशमा एमालेलाई दिएको समर्थन फिर्ता गर्ने
+                    माओवादीको तयारी
+                  </h5>
+                </article>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/EC37C33D-A756-4179-956C-B6F523426674.jpeg"
+                    alt=""
+                    class="primary-img"
+                  />
+                  <h4 class="mt-3 mb-2">
+                    पक्लिहवा क्याम्पस चुनाव : सिरिन्जमा मसी हालेर मतपेटिकामा
+                    राख्दै गरेका ढकाल प्रहरीको नियन्त्रणमा !
+                  </h4>
+                  <p class="samachar-news">
+                    रुपन्देहीको भैरहवास्थित पक्लिहवा क्याम्पस (कृषि क्याम्पस)मा
+                    स्वतन्त्र विद्यार्थी युनियन (स्ववियु)को मतदानका क्रममा एक
+                    बिद्यार्थीले मतपेटिकामा मसी हालेका...
+                  </p>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/bhw-campas.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    २० तस्वीरमा हेर्नुस् – भैरहवा क्याम्पसमा स्ववियु चुनाव
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/sarul-pun-lumbini-samsad.gif"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    लुम्बिनीका स्वतन्त्र प्रदेशसभा सदस्य पुन माओवादीमै फर्किए
+                  </h5>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIETY -->
+      <section class="samaaj mb-5">
+        <div class="news-title">
+          <div></div>
+          <h3 class="text-white mt-1">समाज / स्थानीय</h3>
+        </div>
+
+        <div class="d-grid gap-4">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img
+                src="https://tinaunews.com/wp-content/uploads/2023/03/B547DD59-8BE1-4C25-97C4-ED9D6E8F7A1F.jpeg"
+                alt=""
+                class="w-100 primary-img"
+              />
+              <h3 class="mt-2 mt-md-3 mb-4 mb-md-0 text-center primary-title">
+                नेपाल इन्भेस्टमेन्ट मेगा बैंक बुटवल मिलनचोक शाखा द्वारा बित्तीय
+                साक्षरता कार्यक्रम सम्पन्न
+              </h3>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/67527EA5-821A-4BA1-8DAD-DA0FD8041020.jpeg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    स्विव्त एजुकेशनद्धारा ‘करियर परामर्श भव्य’ सम्पन्न
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/334904486_762408852066013_3660105796682851217_n.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    इन्द्रेणीको स्थापना दिवसमा सहकारी शिक्षा तालिम
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/E7048E7F-4213-470B-BE01-B85426501618.jpeg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    सगरमाथा आवासीयलाई आईएसओ प्रमाण
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/5D9B7F3F-B949-4C2E-A91F-7180ED1A1C10.jpeg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    अक्सफोर्डमा विदाई तथा शुभकामना
+                  </h5>
+                </article>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/MG_6096.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    बुटवल वडा नम्बर ८ द्वारा स्वास्थ्य स्वयंसेविकालाई सम्मान
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/Mandir.jpg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    श्री राम जानकी मन्दिर समिति विष्णुपुराको अध्यक्षमा पुनः
+                    चन्द्रभुवन नाउ
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/B0D495F7-1CF4-4A31-8BFD-1B6329B59443.jpeg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    लायन्स क्लव अफ बुटवल साईनको आयोजनामा रक्तदान कार्यक्रम
+                    सम्पन्न
+                  </h5>
+                </article>
+              </a>
+              <a href="#">
+                <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/5BDE363D-6E86-44FF-BB54-00DD863F921C-2048x1536.jpeg"
+                    alt=""
+                    class="secondary-img"
+                  />
+                  <h5 class="secondary-title">
+                    एक्स आर्मीको अभिभावक दिवस : ‘शिक्षाको गुणस्तर जहाँ राम्रो छ
+                    त्यहाँको समाज झन् राम्रो हुन्छ’
+                  </h5>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- special -->
+      <section class="bishesh mb-0 mb-md-5">
+        <div class="news-title">
+          <div></div>
+          <h3 class="text-white mt-1">विशेष</h3>
+        </div>
+
+        <div class="primary">
+          <a href="#">
+            <article>
+              <img
+                src="https://tinaunews.com/wp-content/uploads/2023/03/pad-aanju-1000x562.jpg"
+                alt=""
+              />
+              <h1 class="mt-3 mb-2 text-center">
+                बैंकको जागिर छाडेर प्याड बनाउन थालेकी अन्जु
+              </h1>
+            </article>
+          </a>
+        </div>
+
+        <div class="secondary mt-4">
+          <div class="row">
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+              <a href="#">
+                <article>
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/gajur-veteyo.jpg"
+                    alt=""
+                  />
+                  <h4 class="mt-3 mb-2 text-center">
+                    कन्थक स्तूपको दक्षिणतर्फ उत्खनन: माटोबाट निर्मित ४२
+                    सेन्टिमिटर लामो गजुर भेटियो
+                  </h4>
+                </article>
+              </a>
+            </div>
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+              <a href="#">
+                <article>
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2022/12/butwal-naryangharth-sadak.jpg"
+                    alt=""
+                  />
+                  <h4 class="mt-3 mb-2 text-center">
+                    १७ अर्ब लगानीको बुटवल–नारायणघाढ सडक बन्दै, वन्यजन्तुका लागि
+                    ३५ ‘अन्डरपास’
+                  </h4>
+                </article>
+              </a>
+            </div>
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+              <a href="#">
+                <article>
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/yeetayat.jpg"
+                    alt=""
+                  />
+                  <h4 class="mt-3 mb-2 text-center">
+                    सवारी चालक अनुमती पत्र (लाईसेन्स)को कार्यालयमा राखेको गुनासो
+                    पेटिकामा नगद रकम भेटिएपछि…
+                  </h4>
+                </article>
+              </a>
+            </div>
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+              <a href="#">
+                <article>
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/lilaa.jpg"
+                    alt=""
+                  />
+                  <h4 class="mt-3 mb-2 text-center">
+                    अन्धविश्वासले निम्त्याएको लीलाको दुख : २० वर्षकी माताले
+                    ‘बोक्सी’ नचाउने भन्दै छोरीको ज्यान खोसिन्
+                  </h4>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sports/opinion -->
+      <section class="mt-4">
+        <div class="d-grid">
+          <div class="row">
+            <div class="khel col-12 col-md-8">
+              <div class="news-title">
+                <div></div>
+                <h3 class="text-white mt-1">खेल</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                  <a href="#">
+                    <article>
+                      <img
+                        src="https://tinaunews.com/wp-content/uploads/2023/03/336168078_1657396824694759_9115235593017528154_n.jpg"
+                        alt=""
+                        class="primary-img"
+                      />
+                      <h4 class="text-center mt-3 primary-title">
+                        फ्रेन्ड्स क्लवलाई पराजित गर्दै मनाङ मस्र्याङदी क्लव
+                        तिलोत्तमा गोल्डकपको फाईनलमा, शनिबार सुदुरपश्चिम ११ संग
+                        भिड्ने
+                      </h4>
+                    </article>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <a href="#">
+                    <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                      <img
+                        src="https://tinaunews.com/wp-content/uploads/2023/03/goldcup.jpg"
+                        alt=""
+                        class="secondary-img"
+                      />
+                      <h5 class="secondary-title">
+                        तिलोत्तमा गोल्डकप अपेडटः फ्रेन्ड्स क्लव २–० ले अगाडि
+                      </h5>
+                    </article>
+                  </a>
+
+                  <a href="#">
+                    <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                      <img
+                        src="https://tinaunews.com/wp-content/uploads/2023/03/336168078_1657396824694759_9115235593017528154_n.jpg"
+                        alt=""
+                        class="secondary-img"
+                      />
+                      <h5 class="secondary-title">
+                        तिलोत्तमा गोल्डकपः ७ मिनेटमै फ्रेन्ड्स क्लवले लियो
+                        अग्रता
+                      </h5>
+                    </article>
+                  </a>
+
+                  <a href="#">
+                    <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                      <img
+                        src="https://tinaunews.com/wp-content/uploads/2023/03/713D58F9-1E01-4F97-9260-72712C125721.jpeg"
+                        alt=""
+                        class="secondary-img"
+                      />
+                      <h5 class="secondary-title">
+                        तिलोत्तमा गोल्ड कपमा रेफ्री बिबाद चरम उत्कर्षमा
+                      </h5>
+                    </article>
+                  </a>
+
+                  <a href="#">
+                    <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                      <img
+                        src="https://tinaunews.com/wp-content/uploads/2023/03/goldcup-tilottima.jpg"
+                        alt=""
+                        class="secondary-img"
+                      />
+                      <h5 class="secondary-title">
+                        थ्रि स्टारलाई हराउँदै सुदुरपश्चिम ११ तिलोत्तमा गोल्डकपको
+                        फाईनलमा
+                      </h5>
+                    </article>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bichar col-12 col-md-4">
+              <div class="news-title">
+                <div></div>
+                <h3 class="text-white mt-1">विचार</h3>
+              </div>
+
+              <div>
+                <a href="#">
+                  <article
+                    class="border-bottom pb-3 mb-3 d-flex align-items-center gap-3"
+                  >
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/ishwori-marasini.jpg"
+                      alt=""
+                    />
+                    <h5 class="secondary-title">किन बदनाम हुँदैछन् सहकारी ?</h5>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article
+                    class="border-bottom pb-3 mb-3 d-flex align-items-center gap-3"
+                  >
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/sapana-malla-kumar-chudal.jpg"
+                      alt=""
+                    />
+                    <h5 class="secondary-title">
+                      सन्दीपको मुद्दामा सर्वोच्चको स्पष्ट दिशानिर्देश, ‘ट्विटर
+                      इजलास’ बाट नबहकिएका दुई न्यायमूर्ति
+                    </h5>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article
+                    class="border-bottom pb-3 mb-3 d-flex align-items-center gap-3"
+                  >
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2022/11/bishnu-paudel-2.jpg"
+                      alt=""
+                    />
+                    <h5 class="secondary-title">पौडेलको परीक्षणकाल</h5>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article
+                    class="border-bottom pb-3 mb-3 d-flex align-items-center gap-3"
+                  >
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2022/12/tekraj-panthi1669964173.jpg"
+                      alt=""
+                    />
+                    <h5 class="secondary-title">
+                      स्वस्थ जीवनका लागि सन्तुलित भोजन र व्यायाम
+                    </h5>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- health/economy -->
+      <section class="mt-4">
+        <div class="d-grid">
+          <div class="row">
+            <div class="siksha col-12 col-md-6">
+              <div class="news-title">
+                <div></div>
+                <h3 class="text-white mt-1">शिक्षा / स्वस्थय</h3>
+              </div>
+
+              <div>
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/330281424_911258613531997_1954936970424368816_n.jpg"
+                      alt=""
+                      class="primary-img"
+                    />
+                    <h4 class="mt-3 mb-2 text-center">
+                      लुम्बिनी प्रदेशमा प्रति एक लाखमा १५७ जनामा क्षयरोग
+                    </h4>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/buddhaya-collage-lumbini.jpg"
+                      alt=""
+                      class="secondary-img"
+                    />
+                    <h5 class="secondary-title">
+                      गुमनाम विश्वविद्यालयलाई विदेशी विद्यार्थी समेत पढ्ने थलो
+                      बनाएका डा. तिलक आचार्य !
+                    </h5>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/66867A54-409C-4B9D-BE4A-7BD30B2D76E6.jpeg"
+                      alt=""
+                      class="secondary-img"
+                    />
+                    <h5 class="secondary-title">
+                      गुणस्तरीय प्राविधिक तथा व्यवसायिक शिक्षा र तालीम
+                      ‘क्वालिटी’ परियोजना सुरू
+                    </h5>
+                  </article>
+                </a>
+              </div>
+            </div>
+
+            <div class="artha col-12 col-md-6">
+              <div class="news-title">
+                <div></div>
+                <h3 class="text-white mt-1">अर्थ</h3>
+              </div>
+
+              <div>
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/mukhayamantri-ofc-dang.jpg"
+                      alt=""
+                      class="primary-img"
+                    />
+                    <h4 class="mt-3 mb-2 text-center">
+                      लुम्बिनी प्रदेश सरकारले कोभिड पीडित परिवारका लागि ८ करोड
+                      राहत रकम दिने तयारी
+                    </h4>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/Hilife.jpg"
+                      alt=""
+                      class="secondary-img"
+                    />
+                    <h5 class="secondary-title">
+                      यस कारण उपभोक्ता माझ लोकप्रिय छ हाइलाइफ
+                    </h5>
+                  </article>
+                </a>
+
+                <a href="#">
+                  <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/03/MG_6816.jpg"
+                      alt=""
+                      class="secondary-img"
+                    />
+                    <h5 class="secondary-title">
+                      बुटवलका व्यवसायिक सटरको भाडादरसम्बन्धी मापदण्ड बनाउन
+                      व्यवसायीको सुझाव
+                    </h5>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- manoranjan -->
+      <section class="manoranjan mt-4">
+        <a href="#">
+          <div class="news-title">
+            <div></div>
+            <h3 class="text-white mt-1">मनोरंजन</h3>
+          </div>
+        </a>
+
+        <div class="d-grid">
+          <div class="row">
+            <div class="left col-12 col-md-4 mb-4 mb-md-0">
+              <a href="#">
+                <article class="position-relative">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/334760978_650833536809900_6157526269314670688_n-e1677913417213.jpg"
+                    alt=""
+                  />
+                  <h4 class="text-white text-center">
+                    लायन्स क्लव अफ बुटवल स्मार्ट सिटी द्वारा बुटवलमा छक्का पञ्जा
+                    ४ को च्यारेटी शो
+                  </h4>
+                </article>
+              </a>
+            </div>
+            <div class="middle col-12 col-md-4 mb-4 mb-md-0">
+              <div class="d-flex flex-column gap-4">
+                <a href="#">
+                  <article class="position-relative">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/magne-buda-1024x578-1.png"
+                      alt=""
+                    />
+                    <h4 class="text-white text-center">
+                      ‘मेरी बास्सै’मा फेरी जोडिए माग्ने बुढा, थपिइन बेनिसा हमाल
+                    </h4>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="position-relative">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/pal-jyoti.jpg"
+                      alt=""
+                    />
+                    <h4 class="text-white text-center">
+                      पल शाहले सफाई पाएपछि ज्योती मगरको स्टाट्सः देशको हिरोले
+                      सफाई पायो
+                    </h4>
+                  </article>
+                </a>
+              </div>
+            </div>
+            <div class="right col-12 col-md-4">
+              <div class="d-flex flex-column gap-4">
+                <a href="#">
+                  <article class="position-relative">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/1EE5A987-8D43-4981-9E88-50D1BDF5F379.jpeg"
+                      alt=""
+                    />
+                    <h4 class="text-white text-center">
+                      मेरो डान्स युनिभर्स र मेरो भ्वाईस युनिभर्स को अडिशन खुल्ला
+                    </h4>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="position-relative">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/thumb.jpeg"
+                      alt=""
+                    />
+                    <h4 class="text-white text-center">
+                      ‘बागवान’को झल्को दिने ‘फूलबारी’
+                    </h4>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="position-relative">
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/Pirati-Video.jpg"
+                      alt=""
+                    />
+                    <h4 class="text-white text-center">
+                      अन्नपूर्णको काखमा खिचिएको ‘पिरती’ को भिडिओ सार्वजनिक
+                    </h4>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- interview -->
+      <section class="antarvarta mt-4">
+        <div class="news-title">
+          <div></div>
+          <a href="#">
+            <h3 class="text-white mt-1">अन्तर्वार्ता</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <div class="row">
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/02/khelraj.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      उपमहानगर सम्मेलनले राष्ट्रिय सन्देश दिनेछः प्रमुख पाण्डेय
+                    </h4>
+                    <p class="samachar-news">
+                      बुटवलमा उपमहानगरपालिकाहरुको राष्ट्रिय सम्मेलन आयोजना
+                      हुँदैछ । बुटवल उपमहानगरपालिकाको आयोजनामा देशभरका
+                      उपमहानगरपालिकाहरुका प्रमुख, उपप्रमुख र प्रमुख प्रशासकीय
+                      अधिकृतहरुको राष्ट्रिय सम्मेलन आयोजना हुन लागेको हो ।
+                      उपमहानगरपालिकाहरुको समान समस्या, समान मुद्दा र समान संरचना
+                      भएका उपमहानगरहरुका बीचमा अनुभव आदान...
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <a href="#">
+                  <article>
+                    <img
+                      src="https://tinaunews.com/wp-content/uploads/2023/01/lila-giri-1.jpg"
+                      alt=""
+                    />
+                    <h4 class="mt-3">
+                      उपमहानगर सम्मेलनले राष्ट्रिय सन्देश दिनेछः प्रमुख पाण्डेय
+                    </h4>
+                    <p class="samachar-news">
+                      लुम्बिनी प्रदेशका मुख्यमन्त्री लीला गिरी यसअघि प्रदेशकै
+                      मन्त्रालय सम्हालेका अनुभवी हुन् । पहिले उनी मन्त्री हुँदा
+                      पार्टीको एकल सरकार थियो । तर, अहिले मुख्यमन्त्री हुँदा ७
+                      दलका ५६ र २ स्वतन्त्र सांसदको चित्त बुझाउनुपर्नेछ ।
+                      प्रदेशको अस्थायी...
+                    </p>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">hello</div>
+        </div>
+      </section>
+
+      <!-- photo feature -->
+      <section class="photo-feature mt-4">
+        <div class="news-title">
+          <div></div>
+          <a href="#">
+            <h3 class="text-white mt-1">फोटो फिचर</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide carousel-fade"
+              data-bs-ride="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/336610287_554662456768230_2636240698824185903_n.jpg"
+                    class="d-block"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>लुम्बिनीमा कुलपुत्र प्रव्रज्या (फोटो फिचर)</h2>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/lumbini-nepal.jpg"
+                    class="d-block"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>११ तस्वीरमा हेर्नुहोस – अस्तव्यस्त र धुलाम्मे बुटवल</h2>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://tinaunews.com/wp-content/uploads/2023/03/dhulo-butwal.jpg"
+                    class="d-block"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>११ तस्वीरमा हेर्नुहोस – अस्तव्यस्त र धुलाम्मे बुटवल</h2>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-4"></div>
+        </div>
+      </section>
+
+      <!-- a verrrrry biiigggg ad -->
+      <section class="ad mt-4">
+        <a href="#">
+          <div>
+            <img
+              src="https://tinaunews.com/wp-content/uploads/2022/11/315529979_904360480481638_4946049378297335062_n-1536x878.jpg"
+              alt=""
+            />
+          </div>
+        </a>
+      </section>
+
+      <section class="video mt-4">
+        <div class="news-title">
+          <div></div>
+          <a href="#">
+            <h3 class="text-white mt-1">भिडियो</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="left col-12 col-md-4">
+            <a href="#">
+              <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2022/12/butwal-yogikuti.jpg"
+                  alt=""
+                />
+                <h5 class="secondary-title">
+                  बुटवलले लुकाएका रहष्यहरू, पुरानो मानिसको बंगारा र अंग्रेज
+                  हारेको किल्ला
+                </h5>
+              </article>
+            </a>
+
+            <a href="#">
+              <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2023/01/phoolbari_88IJhgA1Sd.png"
+                  alt=""
+                />
+                <h5 class="secondary-title">
+                  ‘फूलबारी’मा आमाबुवा–छोराछोरीबीच दूरीको कथा (भिडिओ)
+                </h5>
+              </article>
+            </a>
+
+            <a href="#">
+              <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2022/10/tinau-danab-coredor-2048x965.jpg"
+                  alt=""
+                />
+                <h5 class="secondary-title">
+                  बुटवल ड्रोन सट || BUTWAL VIDEO | Drone Short
+                </h5>
+              </article>
+            </a>
+
+            <a href="#">
+              <article class="border-bottom pb-3 mb-3 d-flex gap-3">
+                <img
+                  src="https://tinaunews.com/wp-content/uploads/2022/10/maxresdefault.jpg"
+                  alt=""
+                />
+                <h5 class="secondary-title">
+                  प्रकाश सपुत र रेश्मा घिमिरेको ‘जाने भए जाउ माया’ सार्वजनिक
+                </h5>
+              </article>
+            </a>
+          </div>
+          <div class="right col-12 col-md-8">
+            <iframe
+              src="https://www.youtube.com/embed/j3hAJCsqz-g"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container px-5 px-sm-0 px-lg-4">
+        <div class="row gap-4 gap-md-0">
+          <div class="col-12 col-md-3">
+            <h5 class="border-bottom pb-1 mb-2">हाम्रो बारेमा</h5>
+            <p class="text-white-50">
+              तिनाउ न्युज डटकम नेपाली भाषाको समाचार पोर्टल हो ।
+            </p>
+            <p class="text-white-50">
+              यो वेवसाइटमा समाचार, विचार, मनोरञ्जन, खेलकुद, प्रवास, विश्वका खबर,
+              सुचना प्राविधि लगायत श्रमजिवी वर्गको पक्षमा बढिभन्दा बढि आवाज
+              उठाउने कोशिस र विश्लेषणहरु सम्बन्धी नै हाम्रो जोड रहनेछ ।
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5 class="border-bottom pb-1 mb-2">हाम्रो टिम</h5>
+            <p class="text-white-50">अध्यक्ष- गीता खनाल पराजुली</p>
+            <p class="text-white-50">सम्पादक- रुकमागत खनाल</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5 class="border-bottom pb-1 mb-2">सामाजिक संजाल</h5>
+            <div>
+              <a href="#"> </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5 class="border-bottom pb-1 mb-2">सम्पर्क</h5>
+            <p class="text-white-50">
+              तिनाउ मल्टिमिडिया प्रा.(लि.) द्वारा सञ्चालित: www.Tinaunews.com –
+            </p>
+            <p class="text-white-50">
+              प्रधान कार्यालय : बुटवल- १० रुपन्देही, नेपाल
+            </p>
+            <p class="text-white-50">
+              सूचना तथा प्रसारण विभाग दर्ता नं- ३८३६/ ०७९/०८०
+            </p>
+            <p class="text-white-50">सूचिकरण प्रमाणपत्र नं – ३८२४</p>
+            <p class="text-white-50">कम्पनी दर्ताः ३०२०२२/०७९/०८०</p>
+            <p class="text-white-50">विज्ञापनका लागि</p>
+            <p class="text-white-50">फोन नं: (☏) +977-9765311999,</p>
+            <p class="text-white-50">इमेल : 📧 tinaunews2022@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <div
+          class="d-flex gap-2 flex-column align-items-center justify-content-between flex-md-row gap-md-0"
+        >
+          <p>© 2023 Tinau News All right reserved Site By : Himal Creation</p>
+          <div>
+            <a href="" class="text-white me-3">सम्पर्क</a>
+            <a href="" class="text-white me-3">हाम्रो बारेमा</a>
+            <a href="" class="text-white">हाम्रो टिम</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
