@@ -283,15 +283,12 @@ body a {
   filter: brightness(0.6);
 }
 .manoranjan .right img {
-  /* height: 180px; */
   aspect-ratio: 5/3;
 }
 .manoranjan .middle img {
-  /* height: 282px; */
   aspect-ratio: 5/3;
 }
 .manoranjan .left img {
-  /* height: 586px; */
   aspect-ratio: 5/3;
 }
 .manoranjan .left h4,
